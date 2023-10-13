@@ -1,0 +1,196 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-size: cover;
+  flex-basis: 80px;
+  margin: 0px;
+  background-image: url('https://png.pngtree.com/background/20230426/original/pngtree-natural-beauty-backdrop-for-product-display-with-pink-roses-flower-ai-picture-image_2492537.jpg');
+}
+.nav-bar-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  background-image: linear-gradient(
+    to left,
+    #f090a6,
+    #3fe02d,
+    #2de0bc,
+    #f090a6
+  );
+}
+.product-logo {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+}
+.product-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  word-spacing: 10px;
+  width: 60%;
+}
+
+#navItem1,
+#navItem2,
+#navItem3,
+#navItem4 {
+  color: #fa0c0c;
+  font-size: 15px;
+  font-family: 'Roboto';
+  text-decoration: none;
+  font-weight: bold;
+}
+.preview-btn {
+  border-radius: 20px;
+  border: 1px solid white;
+  font-size: 10px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #0a3f94;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  text-align: center;
+}
+.bottome-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 30px;
+  align-items: center;
+  margin-bottom: 50px;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.product-heding-info {
+  display: flex;
+  flex-direction: column;
+
+  border-radius: 20px;
+  width: 300px;
+  padding: 20px;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ5JNF-oZNDOxs88iSMGQWgZUhB_g28J1otL3dGE1wsHt8DK7MFhjnvIQYRewRyBd1vOI&usqp=CAU');
+  box-shadow: 0px 4px 16px aqua;
+}
+
+.heading {
+  font-size: 36px;
+  font-weight: bold;
+  font-family: "Georgia, 'Times New Roman', Times, serif";
+  color: orange;
+}
+.description-para {
+  font-size: 18px;
+  color: rgb(35, 49, 62);
+  font-family: 'Roboto';
+  word-break: 20;
+  color: white;
+  margin-top: 0px;
+}
+.learn-more {
+  background-color: #8a1959;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  width: 50%;
+  padding: 10px;
+  border: 1px solid #c7166e;
+  border-radius: 20px;
+}
+.form-container {
+  display: flex;
+  padding: 0px;
+
+  margin-top: 30px;
+  margin-left: 20px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border-radius: 40px;
+  padding: 20px;
+  box-shadow: 0px 4px 16px 0px red;
+}
+.sign-heading {
+  font-size: 40px;
+  font-weight: bold;
+  color: #b50798;
+}
+.email-input,
+.password-input {
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 20px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.chexkbox-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.checkbox-input {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+.agree-label {
+  font-size: 20px;
+  color: #a89ba6;
+}
+.submit-btn {
+  width: 100%;
+  border-radius: 30px;
+  padding: 10px;
+  background-color: blue;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid #0c1a78;
+  outline: none;
+}
+
+.hr-text {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.hr-line {
+  border: 1px solid #827c81;
+  width: 100%;
+}
+.or-text {
+  font-size: 20px;
+  font-weight: bold;
+  color: red;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.login-twitter-btn {
+  width: 100%;
+  background-color: #09ccde;
+  padding: 10px;
+  border-radius: 30px;
+  font-size: 15px;
+  color: white;
+}
